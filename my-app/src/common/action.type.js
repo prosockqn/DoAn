@@ -1,11 +1,6 @@
 
 // Action type 
-export const GET_LIST_KHU_VUC = "GET_LIST_KHU_VUC"
-
-export const GET_LIST_NGANH = "GET_LIST_NGANH"
-
-export const TIM_TRUONG = "TIM_TRUONG"
-
-export const TU_VAN = "TU_VAN"
-
-export const TOP_TRUONG = "TOP_TRUONG"
+export const GET_LOGIN = "GET_LOGIN"
+export const GET_DANGKY = "GET_DANGKY"
+export const GET_MAKT = "GET_MAKT"
+export const GET_TOKEN = "GET_TOKEN"

@@ -4,37 +4,20 @@ import * as types from '../common/action.type'
 
 // config Redux Store
 
-
-
-
-
-
-
 const reducerInitialState = {
-    khuVuc: [],
-    danhSachTruong: [],
-    infoTruong: {},
-    nganh: [],
-    danhSachTuVan: [],
-    nganh: [],
-    infoTruong: {},
-    topTruong: []
-
+    Login: 'fail',
+    MaKiThi: '',
+    Token: '',
+    idToken: ''
 }
 const reducer = (state = reducerInitialState, action) => {
     switch (action.type) {
-        case types.GET_LIST_KHU_VUC:
-            return { ...state, khuVuc: action.khuVuc }
-        case types.GET_LIST_NGANH:
-            return { ...state, nganh: action.nganh }
-        case types.GET_LIST_NGANH:
-            return { ...state, nganh: action.nganh }
-        case types.TIM_TRUONG:
-            return { ...state, danhSachTruong: action.danhSachTruong }
-        case types.TU_VAN:
-            return { ...state, danhSachTuVan: action.danhSachTuVan }
-        case types.TOP_TRUONG:
-            return {...state, topTruong: action.topTruong}
+        case types.GET_LOGIN:
+            return { ...state, Login: action.Login }
+        case types.GET_MAKT:
+            return { ...state, MaKiThi: action.MaKiThi }
+        case types.GET_TOKEN:
+            return { ...state, Token: action.Token, idToken: action.idToken }
         default:
             return state
     }

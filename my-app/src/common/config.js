@@ -1,4 +1,5 @@
 
 // URL API
-export default URL = "http://172.16.2.41:4000/"
+export default URL = "http://localhost:4000/"
+
 

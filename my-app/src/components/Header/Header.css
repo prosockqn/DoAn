@@ -1,0 +1,8 @@
+#background {
+  background-image: url("../../Picture/Cover.jpg");
+  background-repeat: no-repeat;
+  height: 150px;
+  background-size: 100% 120%;
+  /* box-shadow */
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+}

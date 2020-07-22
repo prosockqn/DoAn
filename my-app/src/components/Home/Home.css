@@ -1,0 +1,36 @@
+.form {
+  background-image: linear-gradient(to right, #6ac2f0, #c250c1);
+  height: 92vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.form12 {
+  width: 70vw;
+  height: 70vh;
+  /* border-radius */
+  border-radius: 10px;
+  /* box-shadow */
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-right: 20px;
+}
+.form21 {
+  width: 20vw;
+  height: 70vh;
+  /* border-radius */
+  border-radius: 10px;
+  /* box-shadow */
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+  background-color: #ffffff;
+  text-align: center;
+}
+.button {
+  height: 5vh;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+  margin-top: 10px;
+}
